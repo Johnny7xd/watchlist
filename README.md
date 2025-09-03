@@ -24,15 +24,7 @@ A ideia é permitir que o usuário adicione títulos, categorize-os por gênero 
 
 ## 🛠️ Tecnologias utilizadas
 
-<div align="center">
-
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
+<div align="center"> <a href="#"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" /></a> <a href="#"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a> <a href="#"><img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /></a> </div>
 
 ## 🔄 Controle de versão
 
@@ -41,7 +33,30 @@ Este projeto utiliza **Git** para controle de versão, com múltiplas branches p
 - **main** – branch principal, contém a versão estável do projeto  
 - **feature/watchlist-ui** – branch em desenvolvimento com melhorias na interface  
 
+---
 
+## 💾 Comandos Git úteis
+```bash
+- #Adicionar alterações e fazer commit
+git add .
+git commit -m "Mensagem do commit"
+
+- #Enviar alterações para a branch atual
+git push origin nome-da-branch
+
+- #Listar todas as branches
+git branch
+
+- #Mudar para outra branch
+git checkout nome-da-branch
+
+- #ou usando o git switch
+git switch nome-da-branch
+
+Exemplo: mudar para a branch feature/watchlist-ui
+
+git switch feature/watchlist-ui
+```
 ---
 
 ## 📂 Estrutura do projeto
@@ -53,7 +68,7 @@ Este projeto utiliza **Git** para controle de versão, com múltiplas branches p
 ┃ ┃ ┗ styles.css
 ┃ ┣ 📂 js
 ┃ ┃ ┗ script.js
-┃ ┗ 📂 images (opcional, caso adicione imagens)
+┃ ┗ 📂 images
 ┣ index.html
 ┗ README.md
 
