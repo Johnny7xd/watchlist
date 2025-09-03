@@ -1,0 +1,13 @@
+:root {
+    --bg-dark: #121212;
+    --primary: #E50914;
+    --secondary: #FFD369;
+    --text-light: #F5F5F5;
+    --text-muted: #888888;
+  }
+  
+  body {
+    background: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Roboto', sans-serif;
+  }
