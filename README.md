@@ -98,6 +98,7 @@ git switch feature/watchlist-ui
 
 Este projeto está sendo desenvolvido por:
 
-- [**Larissa Sthefany**](https://github.com/Larissasthefany)  
-- [**Johnny7xd**](https://github.com/Johnny7xd)  
+- [**Larissa Sthefany**](https://github.com/Larissasthefany)
+- [**Evellyn**](https://github.com/Evellynvick)  
+- [**Johnny**](https://github.com/Johnny7xd)  
 
