@@ -13,38 +13,35 @@
 <body>
 
     <main>
-        <h1>My WatchList</h1>
-        <div class="container">
+        <div class="input-section">
+            <input type="text" name="name" id="name" placeholder="Nome do filme ou serie">
+            <input type="text" name="category" id="category" placeholder="Categoria">
+        </div>
 
-            <div class="input-section">
-                <input type="text" name="name" id="name" placeholder="Nome do filme ou serie">
-                <input type="text" name="category" id="category" placeholder="Categoria">
-            </div>
+        <div id="button">
+            <button type="button" id="addBtn" class="btn btn-danger">
+                <i class="bi bi-plus-lg"></i>
+            </button>
+        </div>
 
-            <div id="button">
-                <button type="button" id="btn" class="btn btn-danger">
-                    <i class="bi bi-plus-lg"></i>
-                </button>
-            </div>
+        <select name="filtrarFilme" id="filtrarFilme" class="form-select w-50">
+            <option value="">Generos</option>
+            <option value="acao">Ação</option>
+            <option value="aventura">Aventura</option>
+            <option value="comedia">Comédia</option>
+            <option value="drama">Drama</option>
+            <option value="suspense">Suspense</option>
+            <option value="terror">Terror</option>
+            <option value="romance">Romance</option>
+            <option value="ficcaoCientifica">Ficção Científica</option>
+            <option value="documentario">Documentário</option>
+            <option value="animacao">Animação</option>
+            <option value="dorama">Dorama</option>
+            <option value="anime">Anime</option>
+            <option value="musical">Musical</option>
+            <option value="lgbt">LGBT</option>
 
-            <select name="filtrarFilme" id="filtrarFilme" class="form-select w-50">
-                <option value="">Generos</option>
-                <option value="acao">Ação</option>
-                <option value="aventura">Aventura</option>
-                <option value="comedia">Comédia</option>
-                <option value="drama">Drama</option>
-                <option value="suspense">Suspense</option>
-                <option value="terror">Terror</option>
-                <option value="romance">Romance</option>
-                <option value="ficcaoCientifica">Ficção Científica</option>
-                <option value="documentario">Documentário</option>
-                <option value="animacao">Animação</option>
-                <option value="dorama">Dorama</option>
-                <option value="anime">Anime</option>
-                <option value="musical">Musical</option>
-                <option value="lgbt">LGBT</option>
-
-            </select>
+        </select>
         </div>
     </main>
 
