@@ -12,6 +12,20 @@
 
 <body>
 
+    <header>
+        <h1>WatchList</h1>
+        <input type="text" placeholder="Pesquisar">
+        <button><i class="bi bi-search"></i></button>
+        <div class="box">
+            <button id="toggle" class="bi bi-sun"></button>
+            <button id="toggle" class="bi bi-moon"></button>
+            <button type="submit" id="btn" class="btn btn-primary btn-add">
+                <i class="bi bi-plus-circle"></i> Adicionar à minha lista
+            </button>
+        
+        </div>
+
+    </header>
     <main>
         <h1>My WatchList</h1>
         <div class="container">
@@ -26,25 +40,10 @@
                     <i class="bi bi-plus-lg"></i>
                 </button>
             </div>
+            <div class="lista">
+                <ul id="list"></ul>
+            </div>
 
-            <select name="filtrarFilme" id="filtrarFilme" class="form-select w-50">
-                <option value="">Generos</option>
-                <option value="acao">Ação</option>
-                <option value="aventura">Aventura</option>
-                <option value="comedia">Comédia</option>
-                <option value="drama">Drama</option>
-                <option value="suspense">Suspense</option>
-                <option value="terror">Terror</option>
-                <option value="romance">Romance</option>
-                <option value="ficcaoCientifica">Ficção Científica</option>
-                <option value="documentario">Documentário</option>
-                <option value="animacao">Animação</option>
-                <option value="dorama">Dorama</option>
-                <option value="anime">Anime</option>
-                <option value="musical">Musical</option>
-                <option value="lgbt">LGBT</option>
-
-            </select>
         </div>
     </main>
 
